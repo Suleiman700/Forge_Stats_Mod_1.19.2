@@ -42,6 +42,8 @@ This mod will give you ***Night Vision*** for almost one minute to help you :)
 
 This mod was built for Forge 1.19.2
 
+Download `.jar` from [here](https://github.com/Suleiman700/MiningHelper-Forge1.19.2/releases/tag/Release)
+
 ---
 
 
