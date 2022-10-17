@@ -2,7 +2,7 @@
 
 A simple forge mod to help players with mining.
 
-Since mining can be annoying sometimes this mod will help you with that, It can detect the ores around you (in a radious of 10).
+Since mining can be annoying sometimes this mod will help you with that, It can detect the ores around you (in a radios of 10).
 
 This mod works in single-player, multi-player & realms.
 
@@ -18,7 +18,7 @@ To disable this mod simply press ***F10***
 
 ### How Does It Work:
 
-When enabled, It will search for all blocks around you (in radious of 10) and will send you a chat that contains blocks coordinates (only visible to you).
+When enabled, It will search for all blocks around you (in radios of 10) and will send you a chat that contains blocks coordinates (only visible to you).
 
 This mod will get ***disabled*** after finiding blocks (to prevent crashing because of too many messages).
 
