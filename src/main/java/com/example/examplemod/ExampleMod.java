@@ -10,6 +10,7 @@ import com.example.examplemod.Movements.Walk;
 import com.example.examplemod.Player.Attack;
 import com.example.examplemod.Player.Death;
 import com.example.examplemod.Render.ESP;
+import com.example.examplemod.World.Radar;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.item.BlockItem;
@@ -20,6 +21,7 @@ import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.event.RegisterCommandsEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -65,17 +67,19 @@ public class ExampleMod
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
 
-        MinecraftForge.EVENT_BUS.register(new Jump());
-        MinecraftForge.EVENT_BUS.register(new Fall());
-        MinecraftForge.EVENT_BUS.register(new Chat());
         MinecraftForge.EVENT_BUS.register(new KeysPresses());
-        MinecraftForge.EVENT_BUS.register(new BlockBreak());
-        MinecraftForge.EVENT_BUS.register(new BlockPlace());
-        MinecraftForge.EVENT_BUS.register(new ItemPickup());
-        MinecraftForge.EVENT_BUS.register(new Death());
-        MinecraftForge.EVENT_BUS.register(new Attack());
-//        MinecraftForge.EVENT_BUS.register(new Walk());
-        MinecraftForge.EVENT_BUS.register(new ESP());
+        MinecraftForge.EVENT_BUS.register(new Radar());
+
+//        MinecraftForge.EVENT_BUS.register(new Jump());
+//        MinecraftForge.EVENT_BUS.register(new Fall());
+//        MinecraftForge.EVENT_BUS.register(new Chat());
+//        MinecraftForge.EVENT_BUS.register(new BlockBreak());
+//        MinecraftForge.EVENT_BUS.register(new BlockPlace());
+//        MinecraftForge.EVENT_BUS.register(new ItemPickup());
+//        MinecraftForge.EVENT_BUS.register(new Death());
+//        MinecraftForge.EVENT_BUS.register(new Attack());
+//         MinecraftForge.EVENT_BUS.register(new Walk());
+//         MinecraftForge.EVENT_BUS.register(new ESP());
     }
 
     private void commonSetup(final FMLCommonSetupEvent event)
@@ -105,4 +109,10 @@ public class ExampleMod
             LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
         }
     }
+
+//    @SubscribeEvent
+//    public static void RegisterCommads(RegisterCommandsEvent event) {
+//        CommandTest.register();
+//
+//    }
 }

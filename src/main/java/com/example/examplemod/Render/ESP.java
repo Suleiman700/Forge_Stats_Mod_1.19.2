@@ -63,9 +63,6 @@ import java.util.logging.Level;
 public class ESP {
     public static boolean player_esp = false;
 
-    public static int reachDistance = 500; // Distance
-    public static int partialTicks = 100;
-
     @SubscribeEvent
     public void playerRendering(RenderPlayerEvent.Post event) throws IOException {
         if (event.getEntity() instanceof Player) {
