@@ -4,6 +4,8 @@ A simpel forge mod to help players with mining.
 
 Since mining can be annoying sometimes this mod will help you with that, It can detect the ores around you (in a radious of 10).
 
+This mod works in single-player, multi-player & realms.
+
 ---
 
 ### How To Use:
@@ -33,6 +35,14 @@ This mod will give you ***Night Vision*** for almost one minute to help you :)
 * Deepslate iron ore
 * Emerald ore
 * Deepslate emerald ore
+
+---
+
+### Supported Version:
+
+This mod was built for Forge 1.19.2
+
+---
 
 
 ![image](https://user-images.githubusercontent.com/25286081/196166541-bd5c93ba-1755-4bf8-bac6-be5456cb5ff9.png)
