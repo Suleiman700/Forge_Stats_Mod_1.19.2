@@ -20,7 +20,7 @@ To disable this mod simply press ***F10***
 
 When enabled, It will search for all blocks around you (in radios of 10) and will send you a chat that contains blocks coordinates (only visible to you).
 
-This mod will get ***disabled*** after finiding blocks (to prevent crashing because of too many messages).
+This mod will get ***disabled*** after finding blocks (to prevent crashing because of too many messages).
 
 This mod will give you ***Night Vision*** for almost one minute to help you :)
 
