@@ -26,7 +26,7 @@ This mod will give you ***Night Vision*** for almost one minute to help you :)
 
 ---
 
-### Supprted Blocks:
+### Supported Blocks:
 
 * Ancient debris
 * Diamond ore
